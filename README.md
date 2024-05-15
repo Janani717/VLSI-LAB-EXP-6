@@ -56,6 +56,7 @@ Saving the design:
 	Click the check and save icon in the schematic editor window observe CIW output for any errors.
 
 **BUILDING THE INVERTER TEST DESIGN:**
+
 Creating the inverter test cell view:
 1.	In the CIW or library manager, execute file – new – cell view.
 2.	Setup the newfile as shown below.
@@ -76,6 +77,7 @@ Analog lib	Vdc, gnd	Vdc = 1.8v
 
 
 **ANALOG SIMULATION WITH SPECTRA:**
+
 Starting the simulation environment:
 1.	In the Inverter-test schematic window execute launch – ADEL. The variable virtuoso analog design environment (ADE) simulation window appears.
 Choosing a simulator:
