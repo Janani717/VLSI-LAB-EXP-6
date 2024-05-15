@@ -1,13 +1,14 @@
-SCHEMATIC ENTRY AND SIMULATION OF CMOS INVERTER, CMOS NAND and CMOS NOR USING CADENCE TOOL
+# SCHEMATIC ENTRY AND SIMULATION OF CMOS INVERTER, CMOS NAND and CMOS NOR USING CADENCE TOOL
 
-AIM:
+**AIM:**
 To design and simulate the CMOS inverter and observe the DC and transient responses using cadence tool.
 
-APPARATUS REQUIRED:
+**APPARATUS REQUIRED:**
  
 1.	Laptop with MobaXterm
 2.	Cadence tool
-PROCEDURE
+ 
+**PROCEDURE**
 SCHEMATIC ENTRY:
 Creating a new library:
 1.	In the library manager, execute File - New library. The new library form appears.
@@ -28,11 +29,8 @@ Adding components to schematic:
 2.	Click on the browse button. This opens up a library browser from which you can select components and the symbol view.
 3.	After you complete the add instance form move your cursor to the schematic window and click left to place a component.
 LIBRARY NAME	CELL NAME
-gpdk045	PMOS
-gpdk045	NMOS
-
-
-
+gpdk045  	PMOS
+gpdk045	        NMOS
 
 
 4.	This is a table of components for building the inverter schematic.
@@ -57,7 +55,7 @@ Adding wires to schematic:
 Saving the design:
 	Click the check and save icon in the schematic editor window observe CIW output for any errors.
 
-BUILDING THE INVERTER TEST DESIGN:
+**BUILDING THE INVERTER TEST DESIGN:**
 Creating the inverter test cell view:
 1.	In the CIW or library manager, execute file – new – cell view.
 2.	Setup the newfile as shown below.
@@ -77,7 +75,7 @@ Analog lib	Vdc, gnd	Vdc = 1.8v
  ![image](https://github.com/Janani717/VLSI-LAB-EXP-6/assets/161813915/fdc18a56-b80f-4947-8a25-67b27222bcdb)
 
 
-ANALOG SIMULATION WITH SPECTRA:
+**ANALOG SIMULATION WITH SPECTRA:**
 Starting the simulation environment:
 1.	In the Inverter-test schematic window execute launch – ADEL. The variable virtuoso analog design environment (ADE) simulation window appears.
 Choosing a simulator:
@@ -117,34 +115,34 @@ Running the simulation:
 
 
 
-CMOS NAND GATE
-NAND SCHEMATIC
+**CMOS NAND GATE
+NAND SCHEMATIC**
 
 ![image](https://github.com/Janani717/VLSI-LAB-EXP-6/assets/161813915/caa3045a-c704-4de4-8225-ce07dd04a042)
 
  
-NAND TEST CELL VIEW
+**NAND TEST CELL VIEW**
 
 ![image](https://github.com/Janani717/VLSI-LAB-EXP-6/assets/161813915/25c132c8-2e89-4c35-bef0-a57d140e8db2)
 
  
-NAND SIMULATION WITH SPECTRA
+**NAND SIMULATION WITH SPECTRA**
  
 
 
 
-CMOS NOR GATE
-NOR SCHEMATIC
+**CMOS NOR GATE
+NOR SCHEMATIC**
 
 ![image](https://github.com/Janani717/VLSI-LAB-EXP-6/assets/161813915/c1c88012-52a7-4cc0-96b4-b1662170664f)
 
 
-NOR TEST CELL VIEW
+**NOR TEST CELL VIEW**
 
 ![image](https://github.com/Janani717/VLSI-LAB-EXP-6/assets/161813915/45e87797-43b6-4f21-8674-d416437c448b)
 
  
-NOR SIMULATION WITH SPECTRA
+**NOR SIMULATION WITH SPECTRA**
 
 ![image](https://github.com/Janani717/VLSI-LAB-EXP-6/assets/161813915/99bb011c-637e-4426-85da-969b77ebf2aa)
 
